@@ -1,42 +1,59 @@
 {
-    "id": "duckduckgo_cheat_sheet", 
+    "id": "duckduckgo_cheat_sheet",
     "name": "DuckDuckGo Shortcuts",
-    "section_order": [  
+    "template_type": "keyboard",
+    "section_order": [
         "Open results",
         "Move around"
     ],
     "sections": {
         "Open results": [
             {
+<<<<<<< HEAD
                 "key": "([↵]/[l]/[o])", 
+=======
+                "key": "[↵] or [l] or [o]",
+>>>>>>> upstream/master
                 "val": "Go to the highlighted result, or use it right away to go to the first result"
             },
             {
-                "key": "([Ctrl]/[⌘]) [↵]",
+                "key": "( [Ctrl] / [⌘] ) [↵]",
                 "val": "Open a result in the background"
             },
             {
-                "key": "d", 
+                "key": "d",
                 "val": "Domain search (if a result is highlighted)"
             },
             {
                 "key": "([']/[v])",
                 "val": "Open the highlighted result in a new window/tab. Since this uses JavaScript, you need to turn off pop-up blockers first."
             }
-        ],        
+        ],
         "Move around": [
             {
+<<<<<<< HEAD
                 "key": "([←]/[→])",
                 "val": "Navigate instant answer tabs. When an instant answer is open, navigate within the instant answer."               
             }, 
+=======
+                "key": "[←] or [→]",
+                "val": "Navigate instant answer tabs. When an instant answer is open, navigate within the instant answer."
+            },
+>>>>>>> upstream/master
             {
                 "key": "([↓]/[j])",
                 "val": "Next search result"
             },
             {
+<<<<<<< HEAD
                 "key": "([↑]/[k])",
                 "val": "Previous search result"               
             }, 
+=======
+                "key": "[↑] or [k]",
+                "val": "Previous search result"
+            },
+>>>>>>> upstream/master
             {
                 "key": "([/]/[h])",
                 "val": "Go to search box"
